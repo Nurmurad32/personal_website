@@ -1,0 +1,163 @@
+body{
+    margin: auto;
+    font-family: 'Questrial', sans-serif;
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    right:0;
+    bottom:75px;
+    margin:0;
+    padding:0;
+}
+.arrow img{
+    width: 100%;
+}
+.navigation ul{
+    margin: auto;
+}
+.navigation ul li{
+    list-style: none;
+    float: right;
+    
+}
+.navigation ul li a {
+    text-decoration: none;
+    margin-right: 70px;
+    display: inline-block;
+    color: gray;
+    margin-top: 20px;
+}
+.navigation ul li a:hover{
+    color: rgb(228, 247, 228);
+}
+/* header area start */
+.header-area{
+    background-image: url("images/header-bg.png") ;
+    max-width: 100%  ;
+    height: 750px ;
+    background-position:  center  ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+    margin: auto;
+}
+.half-header-area{
+    width: 40%;
+    float: left;  
+}
+.half-header-area img{
+    width: 100%;
+    margin-top: 55px;
+}
+#header-text{
+    margin-top: 220px;
+    margin-left: 225px;
+}
+#header-text h1{
+    font-size: 30px;
+}
+#header-text h2{
+    color: #ec4c7a; font-size: 37px; font-weight: 900;
+}
+.hire-button{
+    text-decoration: none;
+    background-color: #ec4c78;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.hire-button:hover{
+    background-color: #FFB02A;
+}
+/* header area end */
+
+/* biography area start */
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    width: 100%;
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-biography-area{
+    width: 38%;
+    float: left;
+    margin-left: 70px;
+}
+.half-biography-area img{
+    width: 100%;
+    margin-top: 80px;
+}
+#biography-area-text{
+    margin-top: 125px;
+}
+.cv-button{
+    text-decoration: none;
+    background-color: #ec4c78;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.cv-button:hover{
+    background-color: #62ded2;}
+/* biography area end */
+
+/* latest work area start */
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png");
+    width: 100%;
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.latest-work-area img{
+    width: 27%;
+    float: left;
+    display: block;
+    margin: 15px;
+    margin-top: 50px;
+   
+}
+.latest-work-area{
+    text-align: center; 
+    font-size: 40px; 
+    padding-top: 55px;
+}
+/* latest work area end */
+
+/* Footer area start */
+.footer-area{
+    background-image: url("images/footer-bg.png");
+    width: 100%;
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.email-button{
+    margin: auto;
+    margin-top: 90px;
+}
+.email-button a{
+    text-decoration: none;
+    background-color: #ec4c78;
+    color: white;
+    padding: 40px 135px;
+    border-radius: 5px;
+    display: inline-table;
+    height: 45px;
+    width: 200px;
+}
+.email-button a:hover{
+    background-color: #62ded2;
+}
+.footer-area-end{
+    color: #727272; 
+    text-align: center;
+}
+/* Footer area end */
