@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .arrow{
     height: 50px;
@@ -14,52 +14,17 @@ body{
 .arrow img{
     width: 100%;
 }
-.navigation ul{
-    margin: auto;
-}
-.navigation ul li{
-    list-style: none;
-    float: right;
-    
-}
-.navigation ul li a {
-    text-decoration: none;
-    margin-right: 70px;
-    display: inline-block;
-    color: gray;
-    margin-top: 20px;
-}
-.navigation ul li a:hover{
-    color: rgb(228, 247, 228);
-}
 /* header area start */
 .header-area{
     background-image: url("images/header-bg.png") ;
     max-width: 100%  ;
-    height: 750px ;
+    min-height: 750px ;
     background-position:  center  ;
     background-repeat: no-repeat ;
     background-size: contain ;
     margin: auto;
 }
-.half-header-area{
-    width: 40%;
-    float: left;  
-}
-.half-header-area img{
-    width: 100%;
-    margin-top: 55px;
-}
-#header-text{
-    margin-top: 220px;
-    margin-left: 225px;
-}
-#header-text h1{
-    font-size: 30px;
-}
-#header-text h2{
-    color: #ec4c7a; font-size: 37px; font-weight: 900;
-}
+
 .hire-button{
     text-decoration: none;
     background-color: #ec4c78;
@@ -76,22 +41,10 @@ body{
 .biography-area{
     background-image: url("images/biography-bg.png");
     width: 100%;
-    height: 620px;
+    min-height: 620px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.half-biography-area{
-    width: 38%;
-    float: left;
-    margin-left: 70px;
-}
-.half-biography-area img{
-    width: 100%;
-    margin-top: 80px;
-}
-#biography-area-text{
-    margin-top: 125px;
 }
 .cv-button{
     text-decoration: none;
@@ -108,32 +61,73 @@ body{
 .latest-work-area{
     background-image: url("images/latest-work-bg.png");
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
-.latest-work-area img{
-    width: 27%;
-    float: left;
-    display: block;
-    margin: 15px;
-    margin-top: 50px;
-   
+.card img{
+    width: 100%;
+    height: 300px;
+    padding: 15px;
 }
-.latest-work-area{
-    text-align: center; 
-    font-size: 40px; 
-    padding-top: 55px;
+.card:hover{
+    background-color: #F8F9FC;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
 /* latest work area end */
+
+.experience-area
+{
+    margin: auto;
+    width: 100%;
+    background-image: url("images/exp-bg.png");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-experience {
+    font-size: 20px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5px;
+    padding: 15px;
+    height: 250px;
+    background-color: white;
+}
+#experience-border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato );
+    border-image-slice: 1;
+}
+#experience-border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan );
+    border-image-slice: 1;
+}
+.half-experience h3{
+    color: #FFB527;
+    font-size: 20px;
+}
+.half-experience p{
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+}
+
+
 
 /* Footer area start */
 .footer-area{
     background-image: url("images/footer-bg.png");
     width: 100%;
-    height: 620px;
+    min-height: 620px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,18 +136,16 @@ body{
 .email-button{
     margin: auto;
     margin-top: 90px;
+    height: 150px;
+    width: 600px;
+    background-color: #ec4c78;
+    border-radius: 5px;
 }
 .email-button a{
     text-decoration: none;
-    background-color: #ec4c78;
     color: white;
-    padding: 40px 135px;
-    border-radius: 5px;
-    display: inline-table;
-    height: 45px;
-    width: 200px;
 }
-.email-button a:hover{
+.email-button:hover{
     background-color: #62ded2;
 }
 .footer-area-end{
